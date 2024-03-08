@@ -1,0 +1,166 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+    font-family: "Inter" , sans-serif;
+    background-image: url("../img/bg.png");
+  
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+#navbar{
+    width:1536px;
+    height: 210px;
+    background-color:#323334 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+nav{
+    
+    width: 1200px;
+    height: 40px;
+  
+    display: flex;
+    justify-content: space-between;
+
+}
+input{
+    background-color:#323334 ;
+    border: 1px solid rgba(255, 9, 9, 1);
+    border-radius: 5px;
+    width: 285px;
+    height: 40px;
+    color: white;
+   
+}
+#logo{
+    width: 185px;
+    height: 39px;
+}
+
+#button{
+   padding-top: 20px;
+    width: 326px;
+    height: 31px;
+  
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    height: 31px;
+    border-radius: 5px;
+    background-color:  rgba(255, 67, 67, 1);
+    color: white;
+    border: none;
+
+}
+button:hover{
+    background-color: red;
+}
+#b1{
+    width: 43px;
+    
+}
+#b2{
+    width: 96px;
+}
+#b3{
+    width: 71px;
+}
+#b4{
+    width: 74px;
+}
+#card-box{
+    width: 1060px;
+    height: 366px;
+  
+    margin-left: 238px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+    row-gap: 20px;
+  
+}
+#card{
+    width: 340px;
+    height: 167px;
+    
+  
+    border-image-source: radial-gradient(
+        80.69% 208.78% at 108.28% 112.58%,
+        #eabfff 0%,
+        rgba(135, 38, 183, 0) 100%
+      ),
+      radial-gradient(
+        80.38% 222.5% at -13.75% -12.36%,
+        #98f9ff 0%,
+        rgba(255, 255, 255, 0) 100%
+      );
+  
+    background: url(),
+      radial-gradient(
+        90.16% 143.01% at 15.32% 21.04%,
+        rgba(165, 239, 255, 0.2) 0%,
+        rgba(110, 191, 244, 0.0447917) 77.08%,
+        rgba(70, 144, 213, 0) 100%
+      );
+    background-blend-mode: overlay, normal;
+    backdrop-filter: blur(13.1842px);
+  
+    border-radius: 20px;
+  
+    display: flex;
+    padding: 8px;
+
+   
+}
+#content{
+    width:168px;
+    height: 86px;
+
+    margin-top: 16px;
+    
+}
+#content>h1{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19.36px;
+    color:rgba(255, 255, 255, 1);
+    margin-bottom: 10px;
+
+}
+#content>p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.52px;
+    color:rgba(255, 255, 255, 1);
+}
+#card>img{
+    margin-top: 10px;
+    width:133px;
+    height: 133px;
+}
+#card>button{
+    margin-top: 120px;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
