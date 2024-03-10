@@ -1,0 +1,212 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+    font-family: "Inter" , sans-serif;
+  
+    background-color:rgba(50, 51, 52, 1);
+    display: flex;
+    justify-content: center;
+  
+}
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+#container{
+    width: 393px;
+    height: 852px;
+    /* background-color: blanchedalmond; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+ 
+}
+
+nav{
+    width: 361px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    
+
+}
+nav>h1{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.2px;
+    color: rgba(0, 0, 0, 1);
+
+}
+#logo{
+    width: 21.88px;
+    height: 30px;
+
+}
+#search{
+    height: 60px;
+    width: 361px;
+   
+    display: flex;
+    gap :14px;
+    align-items: center;
+    
+
+}
+
+#input-box>img{
+    position: relative;
+    top: 38px;
+    left: 10px;
+    
+}
+input{
+  background-color: transparent;
+    text-align:center;
+   margin-bottom: 25px;
+    height: 40px;
+    width: 295px;
+    border-radius: 10px;
+    top:50%;
+   
+    color:rgba(255, 255, 255, 1);
+    border: 3px solid rgba(255, 255, 255, 1)
+    
+
+}
+#search>img{
+    cursor: pointer;
+}
+
+#contact{
+    display: flex;
+    height: 64px;
+    width: 360px;
+
+    border-radius: 10px;
+    background-color: rgba(255, 234, 174, 1);
+    justify-content: space-between;
+  
+    align-items: center;
+
+}
+#user{
+    width: 48px;
+    height: 48px;
+}
+
+#info{
+margin-right: 40px;
+height: 55px;
+width: 184px;
+}
+#p1{
+    width: 184px;
+height: 17px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.36px;
+}
+#p2{
+    width: 184px;
+    height: 17px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+}
+#p3{
+    width: 184px;
+    height: 17px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+}
+#contact-box{
+    
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+#button{
+    margin-right: 5px;
+ 
+    width: 72px;
+    height: 32px;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+   
+}
+
+#add-box{
+ 
+    position: absolute;
+    margin-top: 140px;
+    width: 340px;
+    height: 290px;
+    background-color:  rgba(253, 253, 253, 1);
+    padding: 16px;
+    border-radius: 8px;
+
+
+}
+
+#add-box > input{
+    width: 316px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 1);
+    border-radius: 0px;
+   margin-top: 20px;
+   color: black;
+   text-align: left;
+
+
+}
+#add-box>label{
+   
+   position: absolute;
+   margin-top: -20px;
+   padding-top: 20px;
+}
+#save{
+    background-color:  rgba(252, 202, 63, 1);
+    width:120px;
+    height: 31px;
+    border-radius: 5px;
+
+    border: 1px solid rgba(0, 0, 0, 1);
+
+    margin-left: 200px;
+      
+}
+
+#no{
+    margin-top: 50%;
+    height: 72px;
+    width: 279.45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#no>img{
+    width: 53.45px;
+    height: 72px;
+}
+#no>h1{
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29.05px;
+
+}
